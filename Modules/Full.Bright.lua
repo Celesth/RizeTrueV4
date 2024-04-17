@@ -1,3 +1,7 @@
+
+--created by DerNoze/Div1ne
+
+
 if not _G.FullBrightExecuted then
 
 _G.FullBrightEnabled = false
