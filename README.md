@@ -1,4 +1,4 @@
-![Image Alt Text](image_url)
+![Rize True V4](https://raw.githubusercontent.com/Kuuromii/RizeTrueV4/main/Assets/rize.png)
 
 Rize True V4 is an all-in-one Roblox developer script. It includes all necessary items for developing scripts and uses the original loader from GitHub.
 
