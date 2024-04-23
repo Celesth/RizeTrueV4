@@ -1,4 +1,4 @@
-![Rize True V4](https://raw.githubusercontent.com/Kuuromii/RizeTrueV4/main/Assets/rize.png)
+![Rize True V4](https://raw.githubusercontent.com/Kuuromii/RizeTrueV4/main/Assets/New%20Project%201%20%5B0FB5499%5D.png)
 # Rize True V4 Premium Is Comming Soon After The Free Vers Gets Completed:)
 Rize True V4 is an all-in-one Roblox developer script. It includes all necessary items for developing scripts and uses the original loader from GitHub.
 
