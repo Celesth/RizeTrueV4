@@ -3,15 +3,12 @@ local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mooner
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moonerri/Rizee/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moonerri/Rizee/master/Addons/InterfaceManager.lua"))()
 
-local currentDate = os.date("%B %d, %Y") -- Get current date
-local playerCount = game.Players:GetPlayers()
-
 ------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "Rize",
     SubTitle = "[Rize True V4]",
     TabWidth = 120,
-    Size = UDim2.fromOffset(560, 430),
+    Size = UDim2.fromOffset(360, 430),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
@@ -35,25 +32,17 @@ local Options = Fluent.Options
 do
 Fluent:Notify({
     Title = "Rize [True V4]",
-    Content = "Modules.Loading",
+    Content = "Sucessfully Injected",
     SubContent = "V4", -- Optional
     Duration = 5 -- Set to nil to make the notification not disappear
 })
 
-task.wait(2)
+
 
 Tabs.Main:AddParagraph({
     Title = "True V4",
     Content = "True V4 is in development Created On 9:39PM, Sunday, March 24"
 })
-Tabs.Dev:AddParagraph({
-    Title = ("Current Date:" .. currentDate .. "Player" ..playerCount)
-})
-
-
-print("Current date: " .. currentDate)
-print("Number of in-game players: " .. playerCount)
-
 
 
 Tabs.Dev:AddButton({
@@ -157,7 +146,7 @@ task.wait(3)
 
 Fluent:Notify({
     Title = "Rize V4 [ Rize True V4]",
-    Content = "Injected: Ready To Go.",
+    Content = "Modules.Load",
     Duration = 5
 })
 
